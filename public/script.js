@@ -16,15 +16,8 @@ setTimeout(function() {
 }, 2000)
 
 fetchData();
-function timeLert(i) {
-    let string = "";
-    if(i < 10) {
-        string += "0"+i;
-    } else {
-        string += i;
-    }
-    return string;
-}
+function fetchData() {
+
     const data = [
         {
             "link": "https://github.com/dungdang123",
